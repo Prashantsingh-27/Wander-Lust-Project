@@ -11,6 +11,7 @@ const listingSchema = new Schema({
     },
     image:{
         type: String,
+        default:"https://unsplash.com/photos/a-small-building-with-a-lot-of-potted-plants-in-front-of-it-L_5u4iweMGg",
         set: (v) => v===""? "https://unsplash.com/photos/a-small-building-with-a-lot-of-potted-plants-in-front-of-it-L_5u4iweMGg": v ,
     },
     price:{
