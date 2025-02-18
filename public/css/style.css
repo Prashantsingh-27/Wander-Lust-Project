@@ -9,3 +9,32 @@ height: 5rem;
 .nav-link{
 color: #222 ;
 }
+/* Footer */
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+.f-info-link , .f-info-socials ,.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.f-info-link a{
+    text-decoration: none;
+    color: #222;
+}
+.f-info-link a:hover{
+    text-decoration: underline;
+}
+
+
