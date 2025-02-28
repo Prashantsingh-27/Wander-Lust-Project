@@ -76,3 +76,24 @@ margin-bottom: 1rem;
     border: none;
     border-radius: 10%;
 }
+
+/* Edit page */
+.edit-btn{
+    background-color: #fe424d;
+    border: none;
+    border-radius: 10%;
+}
+/* Show page */
+.show-img{
+    height: 30vh;
+}
+.btns{
+    display: flex;
+}
+.edita{
+    text-decoration: none;
+}
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
