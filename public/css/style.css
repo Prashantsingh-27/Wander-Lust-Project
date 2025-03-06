@@ -45,7 +45,7 @@ color: #222 ;
     text-decoration: underline;
 }
 /* Cards */
-.card{
+.listing-card{
 border: none;
 margin-bottom: 1rem;
 }
