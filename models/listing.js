@@ -11,9 +11,8 @@ const listingSchema = new Schema({
         type: String,
     },
     image:{
-        type: String,
-        default:"https://unsplash.com/photos/a-small-building-with-a-lot-of-potted-plants-in-front-of-it-L_5u4iweMGg",
-        set: (v) => v===""? "https://unsplash.com/photos/a-small-building-with-a-lot-of-potted-plants-in-front-of-it-L_5u4iweMGg": v ,
+       url : String,
+       filename : String,
     },
     price: Number,
     location: String,
@@ -24,6 +23,10 @@ const listingSchema = new Schema({
             ref : "Review",
         },
     ],
+    owner:{
+        type: Schema.Types.ObjectId,
+        ref : "User",
+    }
 });
 
 listingSchema.post("findOneAndDelete", async(listing)=>{
